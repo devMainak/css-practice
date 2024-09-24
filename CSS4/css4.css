@@ -1,0 +1,89 @@
+:root {
+  --primary-color: aqua;
+}
+
+body {
+  margin: 0px;
+}
+
+main {
+    padding-top: 100px;
+}
+
+section {
+  padding-left: 10px;
+}
+
+.section-image {
+  padding-top: 1rem;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+.navigation {
+  position: fixed;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: royalblue;
+  padding: 1rem;
+}
+
+.nav-brand {
+  font-weight: bold;
+}
+
+.nav-pills {
+  text-align: right;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+.nav-brand {
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: royalblue;
+  padding: 10px;
+}
+
+.link-secondary {
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  color: royalblue;
+  padding: 10px;
+}
+
+.btn-employee:hover {
+  border: 1px solid aqua;
+  background-color: white;
+  color: royalblue;
+}
+
+.btn-report:hover {
+  background-color: var(--primary-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: royalblue;
+  padding: 1rem;
+  margin-top: 1rem;
+}
