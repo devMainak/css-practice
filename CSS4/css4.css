@@ -35,7 +35,7 @@ section {
   width: 100%;
   background-color: var(--primary-color);
   color: royalblue;
-  padding: 1rem;
+  padding: 0.2rem 1rem;
 }
 
 .nav-brand {
@@ -44,6 +44,8 @@ section {
 
 .nav-pills {
   text-align: right;
+  position: relative;
+  bottom: 10px;
 }
 
 .navigation .link-active {
@@ -51,6 +53,8 @@ section {
 }
 .nav-brand {
   font-weight: bold;
+  position: relative;
+  top: 20px;
 }
 
 .link {
