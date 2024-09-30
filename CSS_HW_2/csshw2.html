@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSSHW2</title>
+    <style>
+      .heading {
+        margin-top: 4rem;
+      }
+      .unordered-list {
+        font-size: larger;
+        font-weight: bold;
+      }
+      .list-item-two {
+        position: relative;
+        left: 30px;
+      }
+      .list-item-three {
+        position: relative;
+        left: 60px;
+      }
+      .block {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        background-color: lightgray;
+        position: relative;
+      }
+      .block-two {
+        top: 30px;
+      }
+      .block-three {
+        top: 60px;
+      }
+      .container {
+        position: relative;
+        height: 300px;
+        width: 300px;
+        background-color: lightgray;
+      }
+      .box {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        padding: 5px 5px;
+        background-color: pink;
+        bottom: 20px;
+        right: 20px;
+      }
+      .border {
+        position: relative;
+        border: 2px solid black;
+        width: 270px;
+        height: 320px;
+      }
+      .box-content {
+        position: absolute;
+      }
+      .content {
+        background-color: lightgray;
+        width: 200px;
+        height: 300px;
+        padding: 10px;
+        left: 50px;
+      }
+      .pink-menu {
+        background-color: lightpink;
+        padding: 8px;
+      }
+      .box-container {
+        border: 2px solid black;
+        display: inline-block;
+      }
+      .block-end {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        background-color: lightgray;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1 class="heading">------------Question 1------------</h1>
+      <ul class="unordered-list">
+        <li>Item One</li>
+        <li class="list-item-two">Item Two</li>
+        <li class="list-item-three">Item Three</li>
+      </ul>
+    </section>
+    <section>
+      <h1 class="heading">------------Question 2------------</h1>
+      <div class="block"></div>
+      <div class="block block-two"></div>
+      <div class="block block-three"></div>
+    </section>
+    <section>
+      <h1 class="heading">------------Question 3------------</h1>
+      <div class="container">
+        <div class="box">This is a box.</div>
+      </div>
+    </section>
+    <section>
+      <h1 class="heading">------------Question 4------------</h1>
+      <div class="border">
+        <div class="box-content pink-menu">Menu</div>
+        <div class="box-content content">This is a content box.</div>
+      </div>
+    </section>
+    <section style="margin-bottom: 3rem">
+        <h1 class="heading">------------Question 5------------</h1>
+        <div class="box-container">
+            <div class="block-end">Menu 1</div>
+            <div class="block-end">Menu 2</div>
+            <div class="block-end">Menu 3</div>
+        </div>
+    </section>
+  </body>
+</html>
