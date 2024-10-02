@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-color: lightgray;
+}
+
+.box {
+  align-self: center;
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
+
+.container-centered {
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+}
+
+.nav-item {
+  border: 1px solid black;
+  background-color: blanchedalmond;
+  padding: 0.5rem;
+  width: 120px;
+  flex-grow: 1;
+  min-width: 50px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  border: 1px solid yellow;
+  padding: 1rem;
+}
+
+.card-img {
+  border-radius: 50%;
+}
+
+.course-card {
+  display: flex;
+  background-color: white;
+  border: 1px solid black;
+  width: 170px;
+  text-align: center;
+  padding: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 5px;
+}
+
+.enrolment-btn {
+  width: 100%;
+  background-color: lightgoldenrodyellow;
+  border: 0px;
+}
+
+.product-card {
+  display: flex;
+  border: 1px solid black;
+  padding: 1rem;
+  justify-content: space-between;
+  width: 400px;
+  gap: 1rem;
+}
+
+.product-details {
+  height: 150px;
+  position: relative;
+}
+
+.buyOut-btn {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: dodgerblue;
+  color: white;
+  border: 0px;
+  padding: 10px;
+}
+
+.review-card {
+    border: 1px solid black;
+    max-width: 400px;
+    padding: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: palevioletred;
+    color: white;
+    padding: 2rem;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.footer-column {
+    width: 200px;
+}
