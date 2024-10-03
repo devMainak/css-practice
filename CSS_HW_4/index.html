@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS_HW_4</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section>
+      <form class="user-form">
+        <div class="input-group">
+          <label class="form-label" for="username">Name:</label>
+          <br />
+          <input class="input" id="usernname" type="text" />
+        </div>
+        <div class="input-group">
+          <label class="form-label" for="useremail">Email:</label>
+          <br />
+          <input class="input" id="useremail" type="email" />
+        </div>
+        <div class="input-group">
+          <label class="form-label" for="usermessage">Message:</label>
+          <br />
+          <textarea id="usermessage" rows="6"></textarea>
+        </div>
+        <button id="submit-btn" type="submit">Submit</button>
+      </form>
+    </section>
+    <br /><br />
+    <section>
+      <div class="user-form">
+        <h2>Login</h2>
+        <form class="login-form">
+          <div class="input-group">
+            <label class="form-label"><strong>Email</strong></label
+            ><br />
+            <input class="input" type="email" />
+          </div>
+          <div class="input-group">
+            <label class="form-label"><strong>Password</strong></label
+            ><br />
+            <input class="input" type="password" />
+          </div>
+          <button id="login-btn" type="submit">Login</button>
+          <a id="password-link">Forgot Password?</a>
+        </form>
+      </div>
+    </section>
+    <br />
+    <section>
+      <div>
+        <h1>Photo Gallery</h1>
+        <nav>
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link link-active">All</a></li>
+            <li class="nav-item"><a class="nav-link">Name</a></li>
+            <li class="nav-item"><a class="nav-link">Birds</a></li>
+            <li class="nav-item"><a class="nav-link">Animals</a></li>
+          </ul>
+        </nav>
+        <div class="photo-block">
+          <div>
+            <img
+              class="photo-block-img"
+              src="https://placehold.co/150x150?text=Nature"
+            />
+          </div>
+          <div>
+            <img
+              class="photo-block-img"
+              src="https://placehold.co/150x150?text=Birds"
+            />
+          </div>
+          <div>
+            <img
+              class="photo-block-img"
+              src="https://placehold.co/150x150?text=Animals"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <br /><br />
+    <section>
+      <div class="row">
+        <div class="col">
+          <div class="free-tag"><small>1 month Free</small></div>
+          <div class="plan-tag">Basic Plan</div>
+          <div class="price-tag">$9.99/mo</div>
+          <div class="break"></div>
+          <div>
+            <p>Ad-free music listening</p>
+            <p>Download 10k songs/device</p>
+            <p>Login from 3 devices</p>
+          </div>
+          <button class="sign-up-btn">Sign Up</button>
+        </div>
+        <div class="col">
+          <div class="free-tag"><small>1 month Free</small></div>
+          <div class="plan-tag">Pro Plan</div>
+          <div class="price-tag">$19.99/mo</div>
+          <div class="break"></div>
+          <div>
+            <p>Ad-free music listening</p>
+            <p>Download 20k songs/device</p>
+            <p>Login from 5 devices</p>
+          </div>
+          <button class="sign-up-btn">Sign Up</button>
+        </div>
+        <div class="col">
+          <div class="free-tag"><small>1 month Free</small></div>
+          <div class="plan-tag">Enterprise Plan</div>
+          <div class="price-tag">$59.99/mo</div>
+          <div class="break"></div>
+          <div>
+            <p>Ad-free music listening</p>
+            <p>Download 40k songs/device</p>
+            <p>Login from unlimited devices</p>
+          </div>
+          <button class="sign-up-btn">Sign Up</button>
+        </div>
+      </div>
+    </section>
+    <br /><br />
+    <section>
+      <div class="order-card">
+        <div id="review-order">Review Order</div>
+        <div class="grid">
+          <div>
+            <div><strong>ITEM</strong></div>
+            <img src="https://placehold.co/50x50" />
+          </div>
+          <div class="grid-col-end">
+            <div>
+              <div><strong>QTY</strong></div>
+              <div class="value">1</div>
+            </div>
+            <div>
+              <div><strong>TOTAL</strong></div>
+              <div class="value">INR 999</div>
+            </div>
+          </div>
+        </div>
+        <p>
+          <small>Limited addition cactus print bag 1 litre, green color</small>
+        </p>
+        <div>
+          <div class="grid value">
+            <div><small>Subtotal</small></div>
+            <div>
+              <small><strong>INR 999</strong></small>
+            </div>
+          </div>
+          <div class="grid value">
+            <div><small>GST</small></div>
+            <div>
+              <small><strong>INR 179</strong></small>
+            </div>
+          </div>
+          <div class="grid value">
+            <div><strong>Grand Total</strong></div>
+            <div>
+              <strong>INR 1178</strong>
+            </div>
+          </div>
+        </div>
+        <button id="place-order-btn">PLACE ORDER</button>
+        <div class="description"><i>Cart Secured by Razorpay</i></div>
+      </div>
+    </section>
+  </body>
+</html>
