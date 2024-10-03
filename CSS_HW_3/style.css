@@ -100,11 +100,14 @@
 }
 
 .footer {
+  background-color: palevioletred;
+  color: white;
+  padding: 2rem;
+}
+
+.footer-row {
     display: flex;
     flex-wrap: wrap;
-    background-color: palevioletred;
-    color: white;
-    padding: 2rem;
     justify-content: start;
     gap: 2rem;
 }
