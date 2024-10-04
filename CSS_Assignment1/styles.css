@@ -1,0 +1,147 @@
+:root {
+    --primary-font: sans-serif;
+  }
+  
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-family: var(--primary-font);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5px;
+  }
+  
+  .nav {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0px;
+    padding-inline-start: 0px;
+  }
+  
+  .hero {
+    text-align: center;
+    display: block;
+    padding: 5rem 0rem;
+  }
+  
+  .hero-img {
+    height: 50px;
+    width: 150px;
+  }
+  
+  .hero-text {
+    font-size: large;
+    color: lightgray;
+  }
+  
+  .container {
+    padding: 2rem;
+  }
+  
+  .row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .row-centered {
+    justify-content: center;
+  }
+  
+  .centered-items {
+    align-items: center;
+  }
+  
+  .description {
+    width: 300px;
+  }
+  
+  .img-2 {
+    height: 300px;
+    width: 500px;
+  }
+  
+  .img-3 {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .blue-text {
+    font-size: large;
+    font-family: var(--primary-font);
+    color: blue;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .welcome-text {
+    font-family: var(--primary-font);
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  
+  .text-gray {
+    color: gray;
+  }
+  
+  .large-text {
+    font-size: large;
+  }
+  
+  .read-text {
+    font-size: small;
+    font-family: var(--primary-font);
+  }
+  
+  .break-div {
+    border: 1px solid lightgray;
+    margin: 0rem 1rem;
+  }
+  
+  .card {
+    width: 250px;
+    padding: 5px;
+    font-family: var(--primary-font);
+  }
+  
+  .card-img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card-blue-text {
+    color: blue;
+    font-size: small;
+    padding: 0.5rem 0rem;
+    font-weight: bolder;
+  }
+  
+  .card-header {
+    font-size: medium;
+    font-weight: bold;
+  }
+  
+  .card-img-3 {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .font-normal {
+    font-size: normal;
+  }
+  
+  .card-large {
+    font-family: var(--primary-font);
+    width: 400px;
+  }
+  
